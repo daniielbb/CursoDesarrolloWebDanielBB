@@ -1,0 +1,65 @@
+:root{
+    --balnco: #ffffff;
+    --negro: #212121;
+    --primario:#FFC107;
+    --secuandario:#0097A7;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /* 1 rem = 10 px*/
+    font-family: "Lato", sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+.titulo span{
+    font-size: 2rem;
+    color: red;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bg{
+    background-color: #8C8CB1 ;
+}
+
+.navegacion_principal{  
+   display: flex;
+   flex-direction: column;
+    text-align: center;
+}
+@media (min-width: 768px) {
+  .navegacion_principal{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.navegacion_principal a{
+    color:var(--balnco);
+    text-decoration: none;
+    font-size:2rem;
+    font-weight:700;
+    padding: 1rem;
+}
+.navegacion_principal a:hover{
+    background-color: #75758a;
+    color:white;
+}
+
+
