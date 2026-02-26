@@ -1,5 +1,5 @@
 :root{
-    --balnco: #ffffff;
+    --blanco: #ffffff;
     --negro: #212121;
     --primario:#FFC107;
     --secuandario:#0097A7;
@@ -51,7 +51,7 @@ body{
   }
 }
 .navegacion_principal a{
-    color:var(--balnco);
+    color:var(--blanco);
     text-decoration: none;
     font-size:2rem;
     font-weight:700;
@@ -59,7 +59,7 @@ body{
 }
 .navegacion_principal a:hover{
     background-color: #75758a;
-    color:white;
+    color: var(--blanco);
 }
 /*TE AMO SANTA FE*/
 /*Santa fe Campeón*/
